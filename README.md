@@ -1,2 +1,2 @@
 # gulp-her-jsExpand
-expand js ability
+expand js ability, depends gulp-her-kernel

@@ -1,0 +1,32 @@
+{
+  "name": "gulp-her-jsExpand",
+  "version": "0.0.1",
+  "description": "expand js ability, depends gulp-her-kernel",
+  "author": {
+    "name": "huangyi",
+    "email": "ustbhuangyi@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ustbhuangyi/gulp-css-expand/issues"
+  },
+  "engines": {
+    "node": ">=0.9"
+  },
+  "homepage": "https://github.com/ustbhuangyi/gulp-css-expand/",
+  "keywords": [
+    "gulpplugin",
+    "her",
+    "js",
+    "expand"
+  ],
+  "licenses": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ustbhuangyi/gulp-css-expand.git"
+  },
+  "dependencies": {
+    "gulp-util": ">=3.0.0 <4.0.0-0",
+    "through2": ">=0.6.1 <1.0.0-0"
+  }
+}
