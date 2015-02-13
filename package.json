@@ -7,12 +7,12 @@
     "email": "ustbhuangyi@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/ustbhuangyi/gulp-css-expand/issues"
+    "url": "https://github.com/ustbhuangyi/gulp-her-jsExpand/issues"
   },
   "engines": {
     "node": ">=0.9"
   },
-  "homepage": "https://github.com/ustbhuangyi/gulp-css-expand/",
+  "homepage": "https://github.com/ustbhuangyi/gulp-her-jsExpand/",
   "keywords": [
     "gulpplugin",
     "her",
@@ -23,7 +23,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ustbhuangyi/gulp-css-expand.git"
+    "url": "git@github.com:ustbhuangyi/gulp-her-jsExpand.git"
   },
   "dependencies": {
     "gulp-util": ">=3.0.0 <4.0.0-0",
