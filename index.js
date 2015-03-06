@@ -48,6 +48,7 @@ module.exports = function (opt) {
   var embeddedMap = {};
 
   var useHash = her.config.get('useHash');
+  var useDomain = her.config.get('uesDomain');
 
   function embeddedCheck(fileMain, fileEmbedded) {
     var main = fileMain.path
@@ -113,8 +114,8 @@ module.exports = function (opt) {
           info = her.uri(url, file.dirname);
           f = info.file;
           if (f && f.isFile()) {
-            url = f.getUrl(useHash);
-            m = info.quote + url + info.quote;
+            url = f.getUrl(useHash, useDomain);
+            m = info.quote + url + info.query + info.hash + info.quote;
           } else {
             m = url;
           }
